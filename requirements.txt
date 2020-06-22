@@ -1,10 +1,11 @@
 https://www.django-rest-framework.org/tutorial/quickstart/#project-setup
 pip install django
 pip install djangorestframework
-django-admin startproject tutorial
+django-admin startproject tutorial .
 cd tutorial
 django-admin startapp quickstart
 python manage.py migrate
 python manage.py createsuperuser
-u: msb
+u: msb1
 p: 123
+python manage.py runserver
